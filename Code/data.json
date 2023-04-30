@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "name": "FitnessTrack - Android Mobile App",
+      "link": "https://www.youtube.com/embed/pOAI-BYW0SI",
+      "content": [
+        "Health record-keeping Android application that allows users to record the food items they eat at each meal and assign a health rating to each one.",
+        "Record all of the nutritional information for our meals in one place, including the date and healthiness rating of each ingredient.",
+        "Help us manage our diet in conjunction with our personal workout routines."
+      ]
+    },
+    {
+      "name": "Social Media Video Downloader",
+      "link": "https://www.youtube.com/embed/lfRdoNt2Oog",
+      "content": [
+        "Web crawler is designed to download videos from video platforms such as YouTube, Instagram, and TikTok, based on given keywords and links."
+      ]
+    },
+    {
+      "name": "WiscShop - Virtual Assistant Agent in Dialogflow",
+      "link": "https://www.youtube.com/embed/SZ6gJJwQ9sw",
+      "content": [
+        "Built a conversational shopping assistant, serving as development of intents and entities of Dialogflow implementation.",
+        "Users can request navigation, purchasing by asking Assistant Agent."
+      ]
+    },
+    {
+      "name": "Fitness Tracker - React Native Mobile App",
+      "link": "https://www.youtube.com/embed/SZ6gJJwQ9sw",
+      "content": [
+        "Designed a fitness tracking mobile app in react native, expo, and RESTful APIs, specifically, building essential screens for a fitness tracking application.",
+        "Users can store health information on server by mobile devices"
+      ]
+    },
+    {
+      "name": "React User Interface - Course Guide System",
+      "link": "https://www.youtube.com/embed/SZ6gJJwQ9sw",
+      "content": [
+        "Built a online course selection ueser interface system and implemented completed course rating system.",
+        "Created Recommended courses to user based on like and dislike interests."
+      ]
+    },
+    {
+      "name": "User Interface - Badger Shop",
+      "link": "https://www.youtube.com/embed/SZ6gJJwQ9sw",
+      "content": [
+        "Built a E-commerce with design thinking to practice visual design methods to improve upon front-end"
+      ]
+    },
+    {
+      "name": "3D Graphics Town & Helicopters",
+      "link": "https://www.youtube.com/embed/SZ6gJJwQ9sw",
+      "content": [
+        "Graphic design in THREE.js for creating 3D object animations and applying Bezier curve to track motions."
+      ]
+    },
+    {
+      "name": "Wardrobe",
+      "link": "https://www.youtube.com/embed/SZ6gJJwQ9sw",
+      "content": [
+        "A web application helps user deciding wearing outfits by uploading physical clothing pictures into virtual wardrobe."
+      ]
+    },
+    {
+      "name": "Meal Plan Analysis",
+      "link": "https://www.youtube.com/embed/SZ6gJJwQ9sw",
+      "content": [
+        "A meal database system with Graphics user interface that users can build their analyzed food list and output their plan."
+      ]
+    },
+    {
+      "name": "Buffer Manager - B+ Tree Index Manager C++",
+      "link": "https://www.youtube.com/embed/SZ6gJJwQ9sw",
+      "content": [
+        "Built a structure on top of the pages that get from the I/O Layer to the nodes of the B+ tree.",
+        "Utilized indices stored in its data in a file on disk, creating a disk image of the index file."
+      ]
+    }
+  ],
+  "programming languages": [
+    "Assembly",
+    "C",
+    "C++",
+    "Java",
+    "JavaScript",
+    "Python",
+    "Scripting Languages",
+    "SQL",
+    "TypeScript",
+    "Kotlin"
+  ],
+  "tools": [
+    "Agile",
+    "Bootstrap",
+    "CSS",
+    "Firebase",
+    "GCP",
+    "Git",
+    "HTML",
+    "Jira",
+    "LaTeX",
+    "Linux",
+    "Makefile",
+    "Maven",
+    "MVC",
+    "Netlify",
+    "Node.js",
+    "React",
+    "React Native",
+    "Sass",
+    "Selenium",
+    "SQL Server",
+    "three.js",
+    "Unit Testing",
+    "Unix",
+    "Validation",
+    "Vue.js",
+    "XML"
+  ]
+}
