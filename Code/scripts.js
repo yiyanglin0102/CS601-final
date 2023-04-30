@@ -53,6 +53,7 @@ function readFile() {
               <div class="card-body">
                 <h5 class="card-title">${project.name}</h5>
                 ${project.content.map((paragraph) => `<p class="card-text">${paragraph}</p>`).join('')}
+                <a href="${project.code}">View Project</a>
               </div>
             </div>
           `;

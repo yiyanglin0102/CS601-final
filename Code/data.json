@@ -7,14 +7,16 @@
         "Health record-keeping Android application that allows users to record the food items they eat at each meal and assign a health rating to each one.",
         "Record all of the nutritional information for our meals in one place, including the date and healthiness rating of each ingredient.",
         "Help us manage our diet in conjunction with our personal workout routines."
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/FitnessTrack"
     },
     {
       "name": "Social Media Video Downloader",
       "link": "https://www.youtube.com/embed/lfRdoNt2Oog",
       "content": [
         "Web crawler is designed to download videos from video platforms such as YouTube, Instagram, and TikTok, based on given keywords and links."
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/Advanced-Programming-Techniques/tree/main/Final_Project"
     },
     {
       "name": "WiscShop - Virtual Assistant Agent in Dialogflow",
@@ -22,7 +24,8 @@
       "content": [
         "Built a conversational shopping assistant, serving as development of intents and entities of Dialogflow implementation.",
         "Users can request navigation, purchasing by asking Assistant Agent."
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/dialogflow-wiscShop-agent"
     },
     {
       "name": "Fitness Tracker - React Native Mobile App",
@@ -30,7 +33,8 @@
       "content": [
         "Designed a fitness tracking mobile app in react native, expo, and RESTful APIs, specifically, building essential screens for a fitness tracking application.",
         "Users can store health information on server by mobile devices"
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/finess-tracker-react-native"
     },
     {
       "name": "React User Interface - Course Guide System",
@@ -38,35 +42,40 @@
       "content": [
         "Built a online course selection ueser interface system and implemented completed course rating system.",
         "Created Recommended courses to user based on like and dislike interests."
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/react-course-guide"
     },
     {
       "name": "User Interface - Badger Shop",
       "link": "./Images/badger-shop-UI.png",
       "content": [
         "Built a E-commerce with design thinking to practice visual design methods to improve upon front-end"
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/badger-shop"
     },
     {
       "name": "3D Graphics Town & Helicopters",
       "link": "./Images/town.png",
       "content": [
         "Graphic design in THREE.js for creating 3D object animations and applying Bezier curve to track motions."
-      ]
+      ],
+      "code": "https://yiyanglin.com/projects/"
     },
     {
       "name": "Wardrobe",
       "link": "https://www.youtube.com/embed/j-sS0GdESgI",
       "content": [
         "A web application helps user deciding wearing outfits by uploading physical clothing pictures into virtual wardrobe."
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/wardrobe-1"
     },
     {
       "name": "Meal Plan Analysis",
       "link": "https://www.youtube.com/embed/ELissurlKzw?start=151",
       "content": [
         "A meal database system with Graphics user interface that users can build their analyzed food list and output their plan."
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/CS400/tree/master/p5"
     },
     {
       "name": "Buffer Manager - B+ Tree Index Manager C++",
@@ -74,7 +83,8 @@
       "content": [
         "Built a structure on top of the pages that get from the I/O Layer to the nodes of the B+ tree.",
         "Utilized indices stored in its data in a file on disk, creating a disk image of the index file."
-      ]
+      ],
+      "code": "https://github.com/yiyanglin0102/CS564/tree/master/p3"
     }
   ],
   "programming languages": [
