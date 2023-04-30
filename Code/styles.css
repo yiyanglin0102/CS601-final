@@ -6,7 +6,12 @@
   .col-3.container-md {
     display: none;
   }
+  .col-9 {
+    margin: 0 auto;
+    float: none;
+  }
 }
+
 
 /* Navbar styles */
 .navbar {
