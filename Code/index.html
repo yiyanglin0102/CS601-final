@@ -63,14 +63,22 @@
 
           Thank you for visiting my website, and I look forward to hearing from you soon!
         </p>
+        <br>
+        <button type="button" class="btn btn-primary" onclick="downloadCV()">Download CV</button>
+
+        <button type="button" class="btn btn-primary" onclick="readFile()">Random Project</button>
+    
       </div>
       <div class="col-md-6 slide-in">
-        <img src="./Images/head.JPG" class="img-fluid rounded-circle spin" alt="Profile Picture">
+        <img id="projectImage" src="./Images/head.jpg" class="img-fluid rounded-circle spin" alt="Profile Picture">
+        <div id="projectContainer" class="card-deck slide-in">
+          <!-- Project card will be dynamically added here -->
+        </div>
       </div>
     </div>
    
-    <button type="button" class="btn btn-primary" onclick="downloadCV()">Download CV</button>
-
+   
+   
   </div>
 </body>
 

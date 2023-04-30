@@ -32,6 +32,7 @@ function fail_load() {
 
 
 function readFile() {
+    document.getElementById("projectImage").style.display = "none";
     return new Promise((resolve, reject) => {
         // Create a fetch Promise
         fetch('./data.json')
@@ -44,7 +45,7 @@ function readFile() {
 
                 // Create the HTML structure for the project
                 const projectCard = document.createElement('div');
-                projectCard.classList.add('col-lg-4', 'col-md-6', 'col-sm-12', 'mb-4');
+                projectCard.classList.add('mb-4');
                 projectCard.innerHTML = `
             <div class="card">
               <div class="card-img-top video-container">
