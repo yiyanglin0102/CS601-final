@@ -71,3 +71,32 @@ function readFile() {
             });
     });
 }
+
+function readTools() {
+    return new Promise((resolve, reject) => {
+        // Create a fetch Promise
+        fetch('./data.json')
+            .then((response) => response.json())
+            .then((json) => {
+                // Get the tools data from the JSON file
+                const tools = json.tools;
+
+                // Get the tools unordered list HTML element
+                const toolsList = document.querySelector(".tools");
+                // Create an empty string to store the list items
+                let toolsHTML = "";
+                // Loop through the tools data and create a list item for each tool
+                tools.forEach((tool) => {
+                    toolsHTML += `<li>${tool}</li>`;
+                });
+                // Set the inner HTML of the tools list to the generated HTML code
+                toolsList.innerHTML = toolsHTML;
+                resolve();
+            })
+            .catch(() => {
+                reject("Fetch data error");
+            });
+    });
+}  readTools();
+
+
