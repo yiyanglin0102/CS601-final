@@ -9,7 +9,6 @@ function toggleIntro() {
     }
 }
 
-
 function downloadCV() {
     var link = document.createElement("a");
     link.download = "Yi-Yang_Lin-CV.pdf";
@@ -19,17 +18,14 @@ function downloadCV() {
     document.body.removeChild(link);
 }
 
-
-
-
 function success_load() {
     console.log("success");
 }
+
 function fail_load() {
     console.log("fail");
 
 }
-
 
 function readFile() {
     document.getElementById("projectImage").style.display = "none";
@@ -97,6 +93,40 @@ function readTools() {
                 reject("Fetch data error");
             });
     });
-}  readTools();
+}
 
+readTools();
 
+function readProgrammingLanguages() {
+    return new Promise((resolve, reject) => {
+      // Create a fetch Promise
+      fetch('./data.json')
+        .then((response) => response.json())
+        .then((json) => {
+          const skillBars = document.querySelector('.skill-bars');
+          for (const lang of json['programming languages']) {
+              const proficiency = lang.proficiency;
+              const li = document.createElement('li');
+              const div = document.createElement('div');
+              div.classList.add('progress');
+              div.classList.add(`percent${proficiency}`);
+              const strong = document.createElement('strong');
+              strong.textContent = lang.name;
+              const span = document.createElement('span');
+              span.textContent = `${proficiency}%`;
+              li.appendChild(div);
+              li.appendChild(strong);
+              li.appendChild(span);
+              skillBars.appendChild(li);
+            
+          }
+          resolve();
+        })
+        .catch(() => {
+          reject('Fetch data error');
+        });
+    });
+  }
+  
+  readProgrammingLanguages();
+  
