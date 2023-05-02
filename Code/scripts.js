@@ -1,4 +1,4 @@
-function toggleIntro() {
+const toggleIntro = function() {
     var intro = document.getElementById('intro');
     var btn = document.querySelector('button.btn');
     if (intro.style.display === 'none') {
@@ -9,23 +9,23 @@ function toggleIntro() {
     }
 }
 
-function downloadCV() {
+const downloadCV = () => {
     var link = document.createElement("a");
     link.download = "Yi-Yang_Lin-CV.pdf";
     link.href = "Yi-Yang_Lin-CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-}
+};
 
-function success_load() {
+
+document.addEventListener('load', function() {
     console.log("success");
-}
+});
 
-function fail_load() {
+document.addEventListener('error', function() {
     console.log("fail");
-
-}
+});
 
 function readFile() {
     document.getElementById("projectImage").style.display = "none";
@@ -129,4 +129,5 @@ function readProgrammingLanguages() {
   }
   
   readProgrammingLanguages();
+  
   
