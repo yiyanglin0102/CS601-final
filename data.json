@@ -1,6 +1,24 @@
 {
   "projects": [
     {
+      "name": "Eletronic Health Record System",
+      "link": "https://www.youtube.com/embed/yAvIbZjLZE8",
+      "code": "https://github.com/yiyanglin0102/Server-Side-Web-Development/tree/main/Term_Project/Code",
+      "content": [
+        "A simple healthcare system application has been developed for use by physicians, hospital staff, and potential patients.",
+        "Allows users to perform various functions, including creating, updating, and deleting calendar events, as well as managing patient information and messaging."
+      ]
+    },
+    {
+      "name": "OpenAI Chatbot Integration",
+      "link": "https://www.youtube.com/embed/F0pb-6ueQZY",
+      "code": "https://github.com/yiyanglin0102/ChatAI",
+      "content": [
+        "Developed a real-time web chat application integrating OpenAI's GPT-4 model OpenAI API, deployed using serverless functions on AWS Amplify, Lambda, API Gateway.",
+        "The responsive and retro-themed interface is accessible at - chat.yiyanglin.com"
+      ]
+    },
+    {
       "name": "FitnessTrack - Android Mobile App",
       "link": "https://www.youtube.com/embed/pOAI-BYW0SI",
       "code": "https://github.com/yiyanglin0102/FitnessTrack",
@@ -38,7 +56,7 @@
     },
     {
       "name": "React User Interface - Course Guide System",
-      "link": "./Images/react-UI.png",
+      "link": "https://www.course.yiyanglin.com/",
       "code": "https://github.com/yiyanglin0102/react-course-guide",
       "content": [
         "Built a online course selection ueser interface system and implemented completed course rating system.",
@@ -47,7 +65,7 @@
     },
     {
       "name": "User Interface - Badger Shop",
-      "link": "./Images/badger-shop-UI.png",
+      "link": "https://yiyanglin0102.github.io/badger-shop/",
       "code": "https://github.com/yiyanglin0102/badger-shop",
       "content": [
         "Built a E-commerce with design thinking to practice visual design methods to improve upon front-end"
@@ -85,6 +103,15 @@
         "Built a structure on top of the pages that get from the I/O Layer to the nodes of the B+ tree.",
         "Utilized indices stored in its data in a file on disk, creating a disk image of the index file."
       ]
+    },
+    {
+      "name": "Personal Bio Website",
+      "link": "./Images/bio.png",
+      "code": "https://github.com/yiyanglin0102/Personal-Bio-Website",
+      "content": [
+        "Created personal bio website that uses the API technologies.",
+        "Hosted the project on netlify service by defining HTML, CSS, JS including Function Expressions, Function Declarations, Anonymous Functions, Arrow Functions."
+      ]
     }
   ],
   "programming languages": [
@@ -109,6 +136,10 @@
       "proficiency": 80
     },
     {
+      "name": "MATLAB",
+      "proficiency": 30
+    },
+    {
       "name": "Python",
       "proficiency": 90
     },
@@ -130,31 +161,60 @@
     }
   ],
   "tools": [
-    "Agile",
-    "Bootstrap",
-    "CSS",
-    "Firebase",
-    "GCP",
-    "Git",
-    "HTML",
-    "Jira",
-    "LaTeX",
-    "Linux",
-    "Makefile",
+    "3GPP",
+    "Bluetooth",
+    "Wi-Fi",
+    "Validation",
+    "Cross-Validation",
+    "5G Communication",
+    "Linux Kernel Development",
+    "Unix Shell",
+    "Unix Shell Scripting",
+    "UNIX/LINUX",
+    "Unit Testing",
+    "SQL Server",
+    "Selenium",
+    "Model-View-Controller (MVC)",
     "Maven",
-    "MVC",
+    "MATLAB",
+    "LaTeX",
+    "TypeScript",
+    "Atlassian JIRA",
+    "Version Control Software",
+    "Google Cloud Platform (GCP)",
+    "Google Firebase",
+    "Agile Development",
+    "REST API",
+    "PHP (Programming Language)",
+    "Bootstrap",
     "Netlify",
     "Node.js",
-    "React",
+    "Three.js",
     "React Native",
-    "Sass",
-    "Selenium",
-    "SQL Server",
-    "three.js",
-    "Unit Testing",
-    "Unix",
-    "Validation",
+    "Express.js",
+    "React.js",
     "Vue.js",
-    "XML"
+    "Sass/Scss",
+    "XML",
+    "Cascading Style Sheets (CSS)",
+    "Hyper Text Markup Language (HTML)",
+    "Kotlin Programming Language",
+    "T-SQL",
+    "SQL",
+    "Scripting Languages",
+    "Python Sqlite3",
+    "Python (Programming Language)",
+    "JavaScript",
+    "JavaFX",
+    "Java for Android",
+    "Java",
+    "C++ Programming Language",
+    "C (Programming Language)",
+    "Assembly Programming",
+    "AWS",
+    "MongoDB",
+    "Git",
+    "Makefile",
+    "three.js"
   ]
 }
